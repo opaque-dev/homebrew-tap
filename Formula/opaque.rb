@@ -9,25 +9,25 @@ class Opaque < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.4.0/opaque-0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "238e9a02e9ffff7d4525d57cb879558fae407f220b8ddb491d99f3632cef4d1d"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8e3ed63a68e5bdb01bd543377db1358cad93aaa3ddaec4d78119d7102154c757"
     end
 
     on_intel do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.4.0/opaque-0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ab574420f0eda3955b18284fe2962074299c0bf258deb484ac4de6d7571278dd"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0a0ac0adbf3bac8e59f843df0301c4517e36fde08e1426547b02f27287588649"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.4.0/opaque-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e09d4e91c48d35326695bc7dcb67def6810bd090d4af54dd90d4a083d272ce8b"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "35ee03cfb956f2809133f23b3372b338cbb43ee0504757b9296e4da057e5de48"
     end
 
     on_intel do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.4.0/opaque-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "063bb0bd8850e24c1e5730b975c08d831d8e9ab7ff0ece5fdae1f75d2d25ad9b"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fca696efa7941081baf87b302c7ffc977c86ed83ef3da729a4a39a7b70306336"
     end
   end
 
