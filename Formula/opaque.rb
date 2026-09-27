@@ -5,29 +5,31 @@
 class Opaque < Formula
   desc "Approval-gated secrets broker for AI coding tools"
   homepage "https://github.com/opaque-dev/opaque"
-  license "BUSL-1.1"
+  # Releases from v0.6.0 ship under Apache-2.0; earlier published artifacts
+  # retain the BUSL-1.1 terms they were released with.
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8e3ed63a68e5bdb01bd543377db1358cad93aaa3ddaec4d78119d7102154c757"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.6.0/opaque-0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b914f36df06520995506d35da3e1125e1099eaf01c66121209c26465137f52eb"
     end
 
     on_intel do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0a0ac0adbf3bac8e59f843df0301c4517e36fde08e1426547b02f27287588649"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.6.0/opaque-0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b3b07f6e8ebe074f456c349262d5ad99d4e2a7067aa0de81409bfb0d847c4d04"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "35ee03cfb956f2809133f23b3372b338cbb43ee0504757b9296e4da057e5de48"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.6.0/opaque-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1cc53846fb10958b7639b57607ee0eff2f3490c472ca4bbb7f68c217343e71e8"
     end
 
     on_intel do
-      url "https://github.com/opaque-dev/opaque/releases/download/v0.5.0/opaque-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fca696efa7941081baf87b302c7ffc977c86ed83ef3da729a4a39a7b70306336"
+      url "https://github.com/opaque-dev/opaque/releases/download/v0.6.0/opaque-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "447041e7513e26ce7fd4c5e28fec3509f23a7a8310a477a39e44b6fec53f261f"
     end
   end
 
